@@ -469,7 +469,8 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!el || typeof Swiper === 'undefined') return;
   new Swiper(el, {
     slidesPerView: 'auto',
-    spaceBetween: 52,
+    centeredSlides: true,
+    spaceBetween: 12,
     grabCursor: true,
     pagination: { el: '.ba-pagination', clickable: true },
     navigation: { nextEl: '.ba-next', prevEl: '.ba-prev' }
