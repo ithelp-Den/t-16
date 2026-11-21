@@ -135,6 +135,45 @@ a { color: inherit; text-decoration: none; }
 
 @keyframes fs-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.03); } }
 
+/* ── 1c. HERO варіант C (index-c, Figma 8744:844) ─────────────────────── */
+.t-c .hero__card {
+  background: radial-gradient(242px 139.5px at 183px 459px, #b83f7a 0%, #8a2f5c 25%, #5c1f3d 50%, #45182e 62.5%, #2e101f 75%, #17080f 87.5%, #0b0408 93.75%, #000 100%);
+}
+.t-c .hero__pill { left: 12px; width: 342px; height: 38px; font-family: 'Outfit', sans-serif; }
+.t-c .hero__pill b {
+  height: 38px; font-weight: 800;
+  background: radial-gradient(220px 45px at 66px 19px, #f568d4 21.5%, #f94a99 60.8%, #fa3c7b 80.4%, #fc2d5e 100%);
+}
+.t-c .hero__pill span { flex: 0 0 auto; margin-left: 8px; font-weight: 400; }
+.t-c .hero__glow--pink { left: -67px; top: 97px; width: 460px; height: 214px; background: #5c2fb6; filter: blur(50px); }
+.t-c .hero__glow--white { left: 48px; top: 97px; width: 270px; height: 154px; filter: blur(50px); }
+.t-c .hero__ribbons { left: -43.02px; top: 40.98px; width: 464.885px; height: 176.674px; transform: rotate(-4.41deg); }
+.t-c .hero__photo { left: -86.69px; top: -46px; width: 557.821px; height: 337px; }
+.t-c .hero__shade { left: -149.87px; top: 259px; width: 667.74px; height: 69px; background: #000; filter: blur(27.8px); }
+.t-c .hero__kicker { white-space: nowrap; }
+.t-c .hero__sub { font-family: 'Source Sans 3', sans-serif; }
+.t-c .price__now {
+  width: 180px; height: 88px; border-radius: 21.24px;
+  background: radial-gradient(233px 66px at 69px 44px, #f568d4 21.5%, #f94a99 60.8%, #fa3c7b 80.4%, #fc2d5e 100%);
+  box-shadow: 0 0 6px 3px rgba(245,104,212,.95), 0 0 22px 8px rgba(245,104,212,.6);
+}
+.t-c .price__now.glare::after { padding: 2.465px; background: #fff; }
+.t-c .price__val { margin: 0; font-size: 75.9px; line-height: 58px; }
+.t-c .price__off {
+  left: 131.34px; width: 210.66px; height: 87.87px; border-radius: 19.15px; padding: 0 17.78px 0 67.88px;
+  flex-direction: column; gap: 3.73px;
+}
+.t-c .price__off::before { padding: 1.5px; background: #fff; }
+.t-c .price__pct { font-size: 41.77px; line-height: 40px; letter-spacing: .42px; }
+.t-c .price__old { opacity: 1; color: rgba(255,255,255,.7); font-weight: 400; padding: 0 2px; line-height: 24px; letter-spacing: 0; }
+.t-c .price__old::after { left: 1.5px; right: 1.5px; top: 10.2px; height: 3.05px; border-radius: 2px; background: #ff4b19; }
+.t-c .hero__cta {
+  height: 28.5px; border: .387px solid #fff; color: #fff;
+  background: radial-gradient(435px 80px at 131px 14px, #7a58f5 21.5%, #6134e2 60.8%, #5523d9 80.4%, #4911cf 100%);
+}
+.t-c .hero__cta svg { stroke: #fff; }
+.t-c .hero__note { font-size: 12px; line-height: 12.6px; }
+
 /* ── 2. 2 COURSES IN ONE ──────────────────────────────────────────────── */
 .courses { padding: 45px 24px 45px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .courses .ttl { font-size: 35px; line-height: 58px; }
